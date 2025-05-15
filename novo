@@ -1,0 +1,14 @@
+# digitar o nome do vendedor pos isso fazer o salario
+nome = input ('Digite o nome do melhor vendedor :')
+# deixar o usuario digiotar o valor do salario
+salario = float(input ('Digite o salario do vendedor:'))
+print("esse é o valor do salario",salario)
+# faze o valor de vendas
+vendas_0 = float(input('Digite valor do total de vendas:'))
+print(vendas_0)
+#fazer o valor da comissão e o valor da porcentagem
+comissao = vendas_0* 0.15
+print("Esse é o valor da comissao", comissao)
+#fazer o total de vendas (salario + comissao)
+total_0 = salario + comissao
+print("Esse é o valor total que ele recebeu R$=", total_0)
